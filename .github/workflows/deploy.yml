@@ -52,5 +52,6 @@ jobs:
     steps:
       - name: Deploy
         id: deployment
-        artifact_name: artifacts
+        with:
+          artifact_name: artifacts
         uses: actions/deploy-pages@v4.0.5
