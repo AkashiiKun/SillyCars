@@ -30,15 +30,10 @@ jobs:
           chmod +x ./build.sh
           ./build.sh
       - name: Upload Artifacts
-        uses: actions/upload-artifact@v5.0.0
+        uses: actions/upload-pages-artifact@v4.0.0
         with:
           name: artifacts
           path: out
-      - name: Upload Pages Artifacts
-        uses: actions/upload-pages-artifact@v4.0.0
-        id: deployment
-        with:
-          path: build
   deploy:
     needs: build
     permissions:
