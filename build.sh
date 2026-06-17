@@ -21,4 +21,4 @@ cd build
 mkdir -p ../out
 packwiz modrinth export -o ../out/silly_cars.mrpack
 packwiz refresh --build
-cp ./* ../out/
+cp -r ./* ../out/
