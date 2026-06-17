@@ -1,7 +1,6 @@
 plugins {
 	alias(libs.plugins.kotlin.jvm)
 	alias(libs.plugins.loom)
-	alias(libs.plugins.publishing)
 	alias(libs.plugins.blossom)
 	alias(libs.plugins.ksp)
 	alias(libs.plugins.spotless)
