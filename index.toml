@@ -939,10 +939,6 @@ file = "mods/voxy.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/voxyserver.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/wavify.pw.toml"
 metafile = true
 
@@ -968,6 +964,10 @@ metafile = true
 
 [[files]]
 file = "mods/xaeros-minimap.pw.toml"
+metafile = true
+
+[[files]]
+file = "mods/xaeros-world-map.pw.toml"
 metafile = true
 
 [[files]]
