@@ -489,10 +489,6 @@ file = "mods/horseman.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/humanoid-villagers.pw.toml"
-metafile = true
-
-[[files]]
 file = "mods/illager-invasion.pw.toml"
 metafile = true
 
