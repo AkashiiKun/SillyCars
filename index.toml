@@ -749,7 +749,7 @@ file = "mods/prickle.pw.toml"
 metafile = true
 
 [[files]]
-file = "mods/punchy.pw.toml"
+file = "mods/punchy-fpa.pw.toml"
 metafile = true
 
 [[files]]
